@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"sourceMap": true,
+		"allowUnreachableCode": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"importHelpers": true
+	},
+	"include": [
+		"*.vue",
+		"*"
+	]
+}
