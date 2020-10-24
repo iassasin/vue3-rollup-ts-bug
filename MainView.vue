@@ -13,7 +13,7 @@ import { defineComponent, reactive, ref } from 'vue';
 export default defineComponent({
 	setup() {
 		return {
-			list: reactive([1, 2, 3]),
+			list: reactive([1, 2, 3]) as any[],
 		};
 	}
 });
